@@ -43,10 +43,11 @@ O Docker Compose é a forma preferencial de executar este projeto, pois ele orqu
 3.  **Inicie os serviços com Docker Compose:**
     No diretório onde o `docker-compose.yml` está, execute:
     ```bash
-    docker-compose up --build
+    docker-compose up --build -d
     ```
     * `up`: Inicia os serviços definidos no `docker-compose.yml`.
     * `--build`: Garante que a imagem da aplicação seja reconstruída caso haja alterações no código-fonte ou no `Dockerfile`.
+    * `-d`: (Detached mode) Inicia os contêineres em segundo plano, liberando o terminal.
 
     O Docker Compose irá:
     * Construir a imagem da sua aplicação (`population_app_poc`).
