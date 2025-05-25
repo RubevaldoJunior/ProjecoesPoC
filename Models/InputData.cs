@@ -2,7 +2,7 @@
 {
     public class InputData
     {
-        public int ano {  get; set; }
+        public int Ano {  get; set; }
         public string Local {  get; set; }
         public string Sexo {  get; set; }
         public int Idade { get; set; }
