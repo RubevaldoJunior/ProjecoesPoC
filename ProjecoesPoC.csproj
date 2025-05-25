@@ -5,13 +5,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+   <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\net9.0\ProjecoesPoC.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net9.0\ProjecoesPoC.GlobalUsings.g.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <Content Include="bin\Debug\net9.0\ProjecoesPoC.deps.json" />
@@ -19,6 +14,8 @@
     <Content Include="obj\Debug\net9.0\ProjecoesPoC.csproj.FileListAbsolute.txt" />
     <Content Include="obj\ProjecoesPoC.csproj.nuget.dgspec.json" />
     <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Release\net9.0\ProjecoesPoC.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\net9.0\ProjecoesPoC.sourcelink.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -79,24 +76,26 @@
     <None Include="bin\Debug\net9.0\System.Diagnostics.EventLog.dll" />
     <None Include="bin\Debug\net9.0\System.IO.Packaging.dll" />
     <None Include="obj\Debug\net9.0\apphost.exe" />
-    <None Include="obj\Debug\net9.0\Projecoe.A6C7215B.Up2Date" />
     <None Include="obj\Debug\net9.0\ProjecoesPoC.AssemblyInfoInputs.cache" />
     <None Include="obj\Debug\net9.0\ProjecoesPoC.assets.cache" />
     <None Include="obj\Debug\net9.0\ProjecoesPoC.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\net9.0\ProjecoesPoC.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\net9.0\ProjecoesPoC.dll" />
     <None Include="obj\Debug\net9.0\ProjecoesPoC.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net9.0\ProjecoesPoC.genruntimeconfig.cache" />
-    <None Include="obj\Debug\net9.0\ProjecoesPoC.pdb" />
-    <None Include="obj\Debug\net9.0\refint\ProjecoesPoC.dll" />
-    <None Include="obj\Debug\net9.0\ref\ProjecoesPoC.dll" />
     <None Include="obj\ProjecoesPoC.csproj.nuget.g.props" />
     <None Include="obj\ProjecoesPoC.csproj.nuget.g.targets" />
     <None Include="obj\project.nuget.cache" />
-    <None Include="ProjecoesPoC.sln" />
+    <None Include="obj\Release\net9.0\ProjecoesPoC.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net9.0\ProjecoesPoC.assets.cache" />
+    <None Include="obj\Release\net9.0\ProjecoesPoC.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net9.0\ProjecoesPoC.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\net9.0\ProjecoesPoC.GeneratedMSBuildEditorConfig.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="bin\Release\net9.0\" />
+    <Folder Include="obj\Debug\net9.0\refint\" />
+    <Folder Include="obj\Debug\net9.0\ref\" />
+    <Folder Include="obj\Release\net9.0\refint\" />
+    <Folder Include="obj\Release\net9.0\ref\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 

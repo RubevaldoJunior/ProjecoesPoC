@@ -1,4 +1,5 @@
 ﻿using ProjecoesPoC.Models;
+using System.Collections.Generic;
 
 namespace ProjecoesPoC.Utils
 {

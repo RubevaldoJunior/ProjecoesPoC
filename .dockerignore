@@ -1,0 +1,13 @@
+# Arquivo .dockerignore para projetos .NET
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+**/*.*proj.user
+**/.git/
+ProjecoesPoC
+.gitignore
+.dockerignore
+Dockerfile*
+docker-compose*
+**/node_modules/

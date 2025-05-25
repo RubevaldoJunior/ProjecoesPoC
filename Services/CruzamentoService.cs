@@ -1,10 +1,12 @@
 ﻿using ProjecoesPoC.Models;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ProjecoesPoC.Services
 {
     public class CruzamentoService
     {
-        public static List<CruzamentoSexoIdade> CruzamentoPorSexoIdade(List<InputData> dados)
+        public List<CruzamentoSexoIdade> CruzamentoPorSexoIdade(List<InputData> dados)
         {
             return [.. dados
                 .GroupBy(p => new { p.Sexo, p.Idade })

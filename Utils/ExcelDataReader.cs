@@ -1,6 +1,10 @@
 ﻿using ClosedXML.Excel;
 using ProjecoesPoC.Models;
+using System;
+using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
+using System.Linq;
 
 namespace ProjecoesPoC.Utils
 {
@@ -21,7 +25,7 @@ namespace ProjecoesPoC.Utils
                 using (var workbook = new XLWorkbook(filePath))
                 {
                     var worksheet = workbook.Worksheets.FirstOrDefault();
-                    if (worksheet != null) { Console.WriteLine("Erro: Nenhuma planilha encontrada."); return dados; }
+                    if (worksheet == null) { Console.WriteLine("Erro: Nenhuma planilha encontrada."); return dados; }
 
                     Console.WriteLine($"Lendo planilha: {worksheet.Name}");
 
@@ -52,6 +56,7 @@ namespace ProjecoesPoC.Utils
                             anos.Add(colunaInicial, ano);
                             colunaInicial++;
                         }
+                        else break;
 
                         if (colunaInicial > 150) break;
                     }
