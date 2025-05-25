@@ -25,7 +25,7 @@ Para executar este projeto, você precisará ter instalado:
 
 * [Docker Desktop](https://www.docker.com/products/docker-desktop) (ou uma alternativa para Docker, com Docker Compose incluído)
 
-### 🐳 Executando com Docker Compose (Recomendado)
+### 🐳 Executando com Docker Compose
 
 O Docker Compose é a forma preferencial de executar este projeto, pois ele orquestra tanto a aplicação quanto o banco de dados PostgreSQL.
 
