@@ -37,7 +37,6 @@ namespace ProjecoesPoC.Services
                 }
                 finally
                 {
-                    // Garante que a aplicação pare mesmo em caso de erro
                     _appLifetime.StopApplication();
                 }
             }

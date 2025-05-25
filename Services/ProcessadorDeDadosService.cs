@@ -57,7 +57,6 @@ namespace ProjecoesPoC.Services
             var sexoIdade = _cruzamentoService.CruzamentoPorSexoIdade(populationRawData);
 
             Console.WriteLine("Salvando agregações no banco de dados...");
-            // Idealmente, você pode ter um serviço de persistência aqui também para isolar as operações do DB.
             _dbContext.CruzamentoSexoLocals.RemoveRange(_dbContext.CruzamentoSexoLocals);
             _dbContext.CruzamentoLocalIdades.RemoveRange(_dbContext.CruzamentoLocalIdades);
             _dbContext.CruzamentoSexoIdades.RemoveRange(_dbContext.CruzamentoSexoIdades);
