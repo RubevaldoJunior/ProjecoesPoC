@@ -97,7 +97,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
     <Folder Include="Utils\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
