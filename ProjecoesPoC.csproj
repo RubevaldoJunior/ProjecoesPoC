@@ -30,13 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Services\" />
-    <Folder Include="Domain\Entities\" />
-    <Folder Include="Domain\Interfaces\" />
-    <Folder Include="Infrastructure\Excel\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="bin\Debug\net9.0\ClosedXML.dll" />
     <None Include="bin\Debug\net9.0\ClosedXML.Parser.dll" />
     <None Include="bin\Debug\net9.0\DocumentFormat.OpenXml.dll" />
@@ -100,6 +93,15 @@
     <None Include="obj\ProjecoesPoC.csproj.nuget.g.props" />
     <None Include="obj\ProjecoesPoC.csproj.nuget.g.targets" />
     <None Include="obj\project.nuget.cache" />
+    <None Include="ProjecoesPoC.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
