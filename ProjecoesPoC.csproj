@@ -1,0 +1,105 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net9.0\ProjecoesPoC.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net9.0\ProjecoesPoC.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net9.0\ProjecoesPoC.deps.json" />
+    <Content Include="bin\Debug\net9.0\ProjecoesPoC.runtimeconfig.json" />
+    <Content Include="obj\Debug\net9.0\ProjecoesPoC.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\ProjecoesPoC.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Services\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Infrastructure\Excel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net9.0\ClosedXML.dll" />
+    <None Include="bin\Debug\net9.0\ClosedXML.Parser.dll" />
+    <None Include="bin\Debug\net9.0\DocumentFormat.OpenXml.dll" />
+    <None Include="bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll" />
+    <None Include="bin\Debug\net9.0\ExcelNumberFormat.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.CommandLine.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Hosting.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.Console.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.Debug.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.EventLog.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Logging.EventSource.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Options.dll" />
+    <None Include="bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll" />
+    <None Include="bin\Debug\net9.0\Npgsql.dll" />
+    <None Include="bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <None Include="bin\Debug\net9.0\ProjecoesPoC.dll" />
+    <None Include="bin\Debug\net9.0\ProjecoesPoC.exe" />
+    <None Include="bin\Debug\net9.0\ProjecoesPoC.pdb" />
+    <None Include="bin\Debug\net9.0\RBush.dll" />
+    <None Include="bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll" />
+    <None Include="bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.Messages.dll" />
+    <None Include="bin\Debug\net9.0\SixLabors.Fonts.dll" />
+    <None Include="bin\Debug\net9.0\System.Diagnostics.EventLog.dll" />
+    <None Include="bin\Debug\net9.0\System.IO.Packaging.dll" />
+    <None Include="obj\Debug\net9.0\apphost.exe" />
+    <None Include="obj\Debug\net9.0\Projecoe.A6C7215B.Up2Date" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.assets.cache" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.dll" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net9.0\ProjecoesPoC.pdb" />
+    <None Include="obj\Debug\net9.0\refint\ProjecoesPoC.dll" />
+    <None Include="obj\Debug\net9.0\ref\ProjecoesPoC.dll" />
+    <None Include="obj\ProjecoesPoC.csproj.nuget.g.props" />
+    <None Include="obj\ProjecoesPoC.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
