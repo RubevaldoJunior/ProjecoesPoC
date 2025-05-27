@@ -1,5 +1,4 @@
 services:
-  # Serviço do banco de dados PostgreSQL
   postgres_db_poc:
     image: postgres:15
     container_name: postgres_db_container_poc
@@ -9,10 +8,8 @@ services:
       POSTGRES_PASSWORD: password_poc
       POSTGRES_DB: populationdb_poc
     ports:
-      # Expõe a porta 5433 do host para a 5432 do container (para acesso externo, se necessário)
       - "5433:5432"
     volumes:
-      # Persiste os dados do PostgreSQL
       - postgres_data_poc:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U user_poc -d populacaodb_poc"]
@@ -20,7 +17,6 @@ services:
       timeout: 5s
       retries: 5
 
-  # Serviço da aplicação C#
   population_app_poc:
     container_name: populacao_app_container_poc
     build:
@@ -28,15 +24,10 @@ services:
       dockerfile: Dockerfile
     restart: on-failure
     environment:
-      # Passa a string de conexão para a aplicação C# via variável de ambiente.
-      # O Program.cs que fizemos vai pegar essa variável.
-      # 'postgres_db_poc' é o nome do serviço do banco, o Docker usa ele para a rede interna.
       DB_CONNECTION_STRING: "Host=postgres_db_poc;Port=5432;Database=populacaodb_poc;Username=user_poc;Password=password_poc"
-      # Não precisamos passar o caminho do arquivo, pois ele está fixo no appsettings.json,
-      # e como copiamos o appsettings.json e o arquivo para a imagem, ele deve encontrar.
     depends_on:
       postgres_db_poc:
-        condition: service_healthy # Garante que o banco esteja pronto antes de iniciar a app.
+        condition: service_healthy 
 
 volumes:
   postgres_data_poc:
