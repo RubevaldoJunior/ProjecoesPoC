@@ -1,8 +1,8 @@
-﻿using ProjecoesPoC.Models;
+﻿using ProjecoesPoC.Domain.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjecoesPoC.Services
+namespace ProjecoesPoC.Application.Services
 {
     public class CruzamentoService
     {

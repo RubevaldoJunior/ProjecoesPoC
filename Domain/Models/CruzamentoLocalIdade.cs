@@ -1,4 +1,4 @@
-﻿namespace ProjecoesPoC.Models
+﻿namespace ProjecoesPoC.Domain.Models
 {
     public class CruzamentoLocalIdade
     {

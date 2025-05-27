@@ -1,12 +1,12 @@
 ﻿using ClosedXML.Excel;
-using ProjecoesPoC.Models;
+using ProjecoesPoC.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace ProjecoesPoC.Utils
+namespace ProjecoesPoC.Infrastructure.Utils
 {
     public class ExcelDataReader : IDataReader
     {

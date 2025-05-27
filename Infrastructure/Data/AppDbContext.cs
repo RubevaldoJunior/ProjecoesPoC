@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjecoesPoC.Models;
+using ProjecoesPoC.Domain.Models;
 
-namespace ProjecoesPoC.Data
+namespace ProjecoesPoC.Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {

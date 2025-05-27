@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Configuration;
-using ProjecoesPoC.Data;
-using ProjecoesPoC.Utils;
+using ProjecoesPoC.Infrastructure.Data;
+using ProjecoesPoC.Infrastructure.Utils;
 using System;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ProjecoesPoC.Services
+namespace ProjecoesPoC.Application.Services
 {
     public class ProcessadorDeDadosService
     {

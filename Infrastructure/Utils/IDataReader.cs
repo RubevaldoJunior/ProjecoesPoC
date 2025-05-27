@@ -1,7 +1,7 @@
-﻿using ProjecoesPoC.Models;
+﻿using ProjecoesPoC.Domain.Models;
 using System.Collections.Generic;
 
-namespace ProjecoesPoC.Utils
+namespace ProjecoesPoC.Infrastructure.Utils
 {
     public interface IDataReader
     {

@@ -96,7 +96,6 @@
     <Folder Include="obj\Debug\net9.0\ref\" />
     <Folder Include="obj\Release\net9.0\refint\" />
     <Folder Include="obj\Release\net9.0\ref\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

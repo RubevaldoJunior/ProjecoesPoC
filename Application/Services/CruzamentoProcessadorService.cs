@@ -4,7 +4,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ProjecoesPoC.Services
+namespace ProjecoesPoC.Application.Services
 {
     public class CruzamentoProcessadorService : IHostedService
     {

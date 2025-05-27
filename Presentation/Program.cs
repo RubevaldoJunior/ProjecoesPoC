@@ -2,9 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ProjecoesPoC.Data;
-using ProjecoesPoC.Services;
-using ProjecoesPoC.Utils;
+using ProjecoesPoC.Application.Services;
+using ProjecoesPoC.Infrastructure.Data;
+using ProjecoesPoC.Infrastructure.Utils;
 using System;
 using System.Threading.Tasks;
 
