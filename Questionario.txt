@@ -1,0 +1,8 @@
+1) Você usou algum padrão de projeto, se sim diga e por que?
+Injeção de dependência para baixo acoplamento.
+
+2) Quais princípios SOLID usou e qual a justificativa?
+Princípio da Responsabilidade Única, uma classe deve ter apenas uma única responsabilidade, isso facilita a manutenção do código.
+
+3) No processo de desenvolvimento desta atividade qual foi o ponto mais desafiado e por que?
+O processo de analisar o arquivo, mapear as linhas e colunas para fazer o cruzamento e também em configurar o projeto para ser executado via Docker.
